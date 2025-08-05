@@ -63,8 +63,9 @@ siendo Europa la región con los puntajes más altos.
 5. **Documentación:** Resultados acompañados de gráficos para facilitar la interpretación. 
 
 ## Autores:
-**Paula Alexandra Hernández Gutiérrez**
-**Carolina Víquez**
+
+- **Paula Alexandra Hernández Gutiérrez**
+- **Carolina Víquez Murillo**
 
 **Referencia APA:**
 Helliwell, J.F.,Layard, R, Sachs,J. D., De Neve, J.-E, Aknin, L. B, & Wang S. (Eds.).(2024).*Word Hapiness Report 2024*. Wellbeing Research Centre, University of Oxford. 
