@@ -70,3 +70,13 @@ siendo Europa la región con los puntajes más altos.
 Helliwell, J.F.,Layard, R, Sachs,J. D., De Neve, J.-E, Aknin, L. B, & Wang S. (Eds.).(2024).*Word Hapiness Report 2024*. Wellbeing Research Centre, University of Oxford. 
 https://worldhappiness.report 
 
+## Imagenes del codigo funcionando:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6725ed0a-7da7-468e-a594-1e4bd9a85cdd" alt="Descripción de la imagen" width="500"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/314e85c4-2b89-476c-a698-4ad38e31bc30" alt="image" width="500"/>
+</p>
+
+
