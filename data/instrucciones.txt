@@ -1,1 +1,2 @@
+Antes de correr el codigo debes descargar las siguiente librerias en tu computadora para que no obtengas un error: pandas,kagglehub y matplotlib
 Descargar el dataset desde: https://www.kaggle.com/datasets/unsdsn/world-happiness
