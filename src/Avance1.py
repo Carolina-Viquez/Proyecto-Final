@@ -57,13 +57,40 @@ print("----FIN DE LOS TIPOS DE DATOS----\n")
 # Mostrar una visualización general del top 10
 print("A CONTINUACION SE MOSTRARA UN GRAFICO SOBRE EL TOP 10 DE PAISES MAS FELICES DEL MUNDO 2019")
 
+# Obtener el top 10 de países más felices
 top10 = datos.sort_values(by='Score', ascending=False).head(10)
 
-matplot.figure(figsize=(10, 6))
-matplot.bar(top10['Country or region'], top10['Score'], color='mediumseagreen')
-matplot.xlabel("País")
-matplot.ylabel("Happiness Score")
-matplot.title("Top 10 países más felices en 2019")
-matplot.xticks(rotation=45)
+# Aplicar estilo
+matplot.style.use('ggplot')
+
+# Crear figura
+matplot.figure(figsize=(12, 7))
+
+matplot.grid(False)
+
+# Gráfico de barras
+bars = matplot.bar(top10['Country or region'], top10['Score'], color='orchid')
+
+# Etiquetas y título
+matplot.xlabel("País", fontsize=12)
+matplot.ylabel("Puntaje de felicidad", fontsize=12)
+matplot.title("Top 10 países más felices en 2019", fontsize=14, weight='bold')
+
+# Rotación y alineación de etiquetas
+matplot.xticks(rotation=45, ha='right')
+
+# Mostrar valores encima de cada barra
+for bar in bars:
+    yval = bar.get_height()
+    matplot.text(bar.get_x() + bar.get_width()/2, yval + 0.05, f'{yval:.2f}', 
+             ha='center', va='bottom', fontsize=10)
+
+# Eliminar bordes innecesarios (spines)
+for spine in ['top', 'right']:
+    matplot.gca().spines[spine].set_visible(False)
+
+# Ajustar diseño
 matplot.tight_layout()
+
+# Mostrar gráfico
 matplot.show()
