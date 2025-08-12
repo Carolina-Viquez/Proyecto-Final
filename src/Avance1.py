@@ -11,7 +11,7 @@ print("Path to dataset files:", path)
 csv_file = None
 for root, dirs, files in os.walk(path):
     for file in files:
-        if file.endswith(".csv"):
+        if file.endswith("9.csv"):
             csv_file = os.path.join(root, file)
             break
     if csv_file:
@@ -55,15 +55,15 @@ print(datos.dtypes)
 print("----FIN DE LOS TIPOS DE DATOS----\n")
 
 # Mostrar una visualización general del top 10
-print("A CONTINUACION SE MOSTRARA UN GRAFICO SOBRE EL TOP 10 DE PAISES MAS FELICES DEL MUNDO 2015")
+print("A CONTINUACION SE MOSTRARA UN GRAFICO SOBRE EL TOP 10 DE PAISES MAS FELICES DEL MUNDO 2019")
 
-top10 = datos.sort_values(by='Happiness Score', ascending=False).head(10)
+top10 = datos.sort_values(by='Score', ascending=False).head(10)
 
 matplot.figure(figsize=(10, 6))
-matplot.bar(top10['Country'], top10['Happiness Score'], color='mediumseagreen')
+matplot.bar(top10['Country or region'], top10['Score'], color='mediumseagreen')
 matplot.xlabel("País")
 matplot.ylabel("Happiness Score")
-matplot.title("Top 10 países más felices en 2015")
+matplot.title("Top 10 países más felices en 2019")
 matplot.xticks(rotation=45)
 matplot.tight_layout()
 matplot.show()
