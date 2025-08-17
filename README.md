@@ -133,7 +133,8 @@ https://worldhappiness.report
 
 ## Imagenes del codigo funcionando:
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6725ed0a-7da7-468e-a594-1e4bd9a85cdd" alt="Descripción de la imagen" width="500"/>
+  <img src=<img width="1397" height="848" alt="image" src="https://github.com/user-attachments/assets/48a6bca1-4ba1-4205-aa85-a1825eff98ec" />
+" width="500"/>
 </p>
 
 <p align="center">
