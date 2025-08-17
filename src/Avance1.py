@@ -57,6 +57,7 @@ print("----FIN DE LOS TIPOS DE DATOS----\n")
 # Mostrar una visualización general del top 10
 print("A CONTINUACION SE MOSTRARA UN GRAFICO SOBRE EL TOP 10 DE PAISES MAS FELICES DEL MUNDO 2019")
 
+#Codigo para grafico 1:
 # Obtener el top 10 de países más felices
 top10 = datos.sort_values(by='Score', ascending=False).head(10)
 
@@ -94,3 +95,6 @@ matplot.tight_layout()
 
 # Mostrar gráfico
 matplot.show()
+
+
+
