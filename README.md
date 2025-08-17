@@ -132,6 +132,7 @@ Helliwell, J.F.,Layard, R, Sachs,J. D., De Neve, J.-E, Aknin, L. B, & Wang S. (E
 https://worldhappiness.report 
 
 ## Imagenes del codigo funcionando:
+
 <p align="center">
   <img src=<img width="1397" height="848" alt="image" src="https://github.com/user-attachments/assets/48a6bca1-4ba1-4205-aa85-a1825eff98ec" />
 </p>
