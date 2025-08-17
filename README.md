@@ -138,6 +138,6 @@ https://worldhappiness.report
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/314e85c4-2b89-476c-a698-4ad38e31bc30" alt="image" width="500"/>
+<img width="1132" height="852" alt="image" src="https://github.com/user-attachments/assets/3869dc31-5f91-4694-8057-43227c37263f" />
 </p>
 
