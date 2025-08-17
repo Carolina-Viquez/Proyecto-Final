@@ -133,11 +133,8 @@ https://worldhappiness.report
 
 ## Imagenes del codigo funcionando:
 
-<p align="center">
-  <img src=<img width="1397" height="848" alt="image" src="<img width="1132" height="852" alt="image" src="https://github.com/user-attachments/assets/e20413b6-e193-4d47-8f65-50649fa30afa" />
-</p>
+<img width="1400" height="848" alt="image" src="https://github.com/user-attachments/assets/acf4c140-84e6-4e9f-b271-f63fd889a978" />
 
-<p align="center">
-<img width="1132" height="852" alt="image" src="https://github.com/user-attachments/assets/3869dc31-5f91-4694-8057-43227c37263f" />
-</p>
+<img width="1127" height="827" alt="image" src="https://github.com/user-attachments/assets/391bc46b-0996-4b5b-9ecc-7dfe8685bef4" />
+
 
